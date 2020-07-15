@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
-class SearchBar extends Component {
+class TopBar extends Component {
     render() {
         return (
             <Container>
@@ -33,4 +33,4 @@ class SearchBar extends Component {
     }
 }
 
-export default SearchBar;
+export default TopBar;
